@@ -1,0 +1,22 @@
+Package: UIAppliedTS
+Title: Applied Time Series R Package for the University of Iowa
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Brad",
+           family = "Dougherty",
+           role = c("cre"),
+           email = "bdougherty13@live.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package is meant to simplify the learning and use of time series functions in R. 
+    For the University of Iowa's Applied Time Series Course, as a part of my Master's creative component.
+License: CCO
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+NeedsCompilation: no
+Packaged: 2020-01-20 21:36:04 UTC; bdoug
+Author: Brad Dougherty [cre] (<https://orcid.org/YOUR-ORCID-ID>)
+Maintainer: Brad Dougherty <bdougherty13@live.com>
+Depends: forecast, stats, TSA
+LinkingTo:stats
+Roxygen: list(markdown = TRUE)
